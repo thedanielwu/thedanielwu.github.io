@@ -1,0 +1,40 @@
+/* Navbar */
+    .navbar {
+      background-color: #310a0a !important;
+    }
+    .navbar-brand,
+    .nav-link {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      color: #fff !important;
+    }
+    .nav-link.active {
+      text-decoration: underline;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      background: repeating-linear-gradient(
+        90deg,
+        #310a0a,
+        #310a0a 40px,
+        #3d0d0d 40px,
+        #3d0d0d 80px
+      );
+      min-height: 400px;
+      font-family: "Montserrat", sans-serif;
+      color: #fff;
+    }
+    .contact-section h5 {
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .contact-section h2 {
+      font-size: 24px;
+      font-weight: 400;
+    }
+    .contact-section p,
+    .contact-section small {
+      font-size: 14px;
+      font-weight: 400;
+    } 

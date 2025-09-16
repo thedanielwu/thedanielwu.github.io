@@ -1,0 +1,93 @@
+.home,
+.home * {
+  box-sizing: border-box;
+}
+
+.home {
+  background: #310a0a;
+  height: 389px;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Navbar styling */
+.navbar {
+  font-family: "Montserrat-Regular", sans-serif;
+  background-color: #310a0a !important;
+  /* match theme */
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #a8ff35;
+}
+
+/* Headline */
+.let-s-create-a-simple-website-design {
+  color: #ffffff;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  -webkit-text-stroke: 1px #000000;
+  margin-bottom: 15px;
+}
+
+/* Subtext */
+.today-let-s-create-a-sample-website-design-in-figma-and-exporting-it-to-html-and-css {
+  color: #ffffff;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  max-width: 600px;
+}
+
+/* Button */
+.rounded-rectangle {
+  background: #a8ff35;
+  border-radius: 34px;
+  width: 140px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+.get-started {
+  color: #000000;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  color: #ffffff;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 40px;
+}
